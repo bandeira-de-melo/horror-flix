@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+@font-face {
+   font-family: "Nosferotica";
+   src: url("./fonts/Nosferotica.woff") format("woff"),
+        url("./fonts/Nosferotica.woff2") format("woff2");
+ }
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    
+}
+
+ #container {
+    width: 100%;
+    min-width: 600px;
+     
+ }
+
+
+ .header-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+
+
+
+ #header-text-div {
+    position: absolute;
+    color: rgb(88, 0, 0);
+    font-family: Nosferotica;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ h1 {
+    font-size: 16vw;  
+ }
+
+ #img {
+   width: 100%;
+   height: inherit;
+ }
+
+ #login-area  {
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#vert-stripe {
+   position: absolute;
+   width: 300px;
+   height: 100%;
+   z-index: 1;
+   background-color: rgb(0, 0, 0);
+   box-shadow:  0 0 30px 20px black;
+}
+
+ form  {
+    z-index: 2;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    border: 1px solid black;
+    background-color: black;
+    box-shadow: 0 0 30px 20px black;
+  
+ }
+
+ #email-div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 300px;
+
+   font-size: 22px;
+   height: fit-content;
+   margin-bottom: 20px;
+
+   
+ }
+
+ #password-div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 300px;
+
+   font-size: 22px;
+   height: fit-content;
+   margin-bottom: 20px;
+ }
+
+ #send-btn-div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 300px;
+ 
+   font-size: 22px;
+   height: fit-content;
+ }
+
+ ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: rgb(68, 0, 0);
+   opacity: 1; /* Firefox */
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+}
+
+ #email {
+    height: 40px;
+    width: 90%;
+    min-width: 180px;
+    padding-left: 10px;
+    border: solid;
+    border-radius: 10px;
+    box-shadow: inset -5px -8px 20px 1px #000;
+    background-color: #ccc;
+    
+ }
+
+ #password {
+   height: 40px;
+   width: 90%;
+   min-width: 180px;
+   padding-left: 10px;
+   border: solid;
+   border-radius: 10px;
+   box-shadow: inset -5px -8px 20px 1px #000;
+   background-color: #ccc;
+   
+}
+
+#send-btn {
+   height: 80px;
+   width: 90%;
+   min-width: 180px;
+   border: solid;
+   border-radius: 10px;
+   background-color: rgb(88, 0, 0);
+   font-family: ;
+   font-size: 20px;
+}
+
+footer {
+   width: 100%;
+   
+   background-color: black;
+}
